@@ -32,7 +32,9 @@ if [[ $n = "1" ]] ; then
      clear
      read y 
      echo -e "$blue"
-echo "Cevap="$(($x + $y))     
+echo "Cevap="$(($x + $y)) 
+sleep 3
+bash hesapmakinesi.sh
 fi
 
 if [[ $n = "2" ]] ; then
@@ -44,7 +46,9 @@ if [[ $n = "2" ]] ; then
      clear
      read y 
      echo -e "$blue"
-echo "Cevap="$(($x - $y))     
+echo "Cevap="$(($x - $y))
+sleep 3
+bash hesapmakinesi.sh
 fi
 
 if [[ $n = "3" ]] ; then
@@ -56,7 +60,9 @@ if [[ $n = "3" ]] ; then
      clear
      read y 
      echo -e "$blue"
-echo "Cevap="$(($x * $y))     
+echo "Cevap="$(($x * $y))
+sleep 3
+bash hesapmakinesi.sh
 fi
 
 if [[ $n = "4" ]] ; then
@@ -68,5 +74,7 @@ if [[ $n = "4" ]] ; then
      clear
      read y 
      echo -e "$blue"
-echo "Cevap="$(($x / $y))     
+echo "Cevap="$(($x / $y))  
+sleep 3
+bash hesapmakinesi.sh
 fi
