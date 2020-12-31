@@ -34,6 +34,7 @@
         echo -e "$blue"
     echo "Cevap="$(($x + $y)) 
     sleep 3
+    clear
     bash hesapmakinesi.sh
     fi
 
@@ -48,6 +49,7 @@
         echo -e "$blue"
     echo "Cevap="$(($x - $y))
     sleep 3
+    clear
     bash hesapmakinesi.sh
     fi
 
@@ -62,6 +64,7 @@
         echo -e "$blue"
     echo "Cevap="$(($x * $y))
     sleep 3
+    clear
     bash hesapmakinesi.sh
     fi
 
@@ -76,5 +79,6 @@
         echo -e "$blue"
     echo "Cevap="$(($x / $y))  
     sleep 3
+    clear
     bash hesapmakinesi.sh
     fi
